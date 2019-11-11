@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frogger</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<body background="static/images/frigger.bg.jpeg">
+    <form id="mid" action="{{ url_for('run_game') }}">
+        <button class="start-btn">START</button>
+    </form>
+</body>
+</html>
